@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23890A2819DB064B00D64063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A2719DB064B00D64063 /* main.m */; };
+		23890A3319DB078000D64063 /* KECRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3219DB078000D64063 /* KECRC.m */; };
+		23890A3619DB080100D64063 /* Crc8.c in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3519DB080100D64063 /* Crc8.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23890A2219DB064B00D64063 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23890A2419DB064B00D64063 /* CRC8Lib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CRC8Lib; sourceTree = BUILT_PRODUCTS_DIR; };
+		23890A2719DB064B00D64063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23890A3119DB078000D64063 /* KECRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KECRC.h; path = ../KECRC.h; sourceTree = "<group>"; };
+		23890A3219DB078000D64063 /* KECRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KECRC.m; path = ../KECRC.m; sourceTree = "<group>"; };
+		23890A3419DB080100D64063 /* Crc8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crc8.h; sourceTree = "<group>"; };
+		23890A3519DB080100D64063 /* Crc8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Crc8.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23890A2119DB064B00D64063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23890A1B19DB064B00D64063 = {
+			isa = PBXGroup;
+			children = (
+				23890A2619DB064B00D64063 /* CRC8Lib */,
+				23890A2519DB064B00D64063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23890A2519DB064B00D64063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23890A2419DB064B00D64063 /* CRC8Lib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23890A2619DB064B00D64063 /* CRC8Lib */ = {
+			isa = PBXGroup;
+			children = (
+				23890A3119DB078000D64063 /* KECRC.h */,
+				23890A3219DB078000D64063 /* KECRC.m */,
+				23890A3419DB080100D64063 /* Crc8.h */,
+				23890A3519DB080100D64063 /* Crc8.c */,
+				23890A2719DB064B00D64063 /* main.m */,
+			);
+			path = CRC8Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23890A2319DB064B00D64063 /* CRC8Lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23890A2B19DB064B00D64063 /* Build configuration list for PBXNativeTarget "CRC8Lib" */;
+			buildPhases = (
+				23890A2019DB064B00D64063 /* Sources */,
+				23890A2119DB064B00D64063 /* Frameworks */,
+				23890A2219DB064B00D64063 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRC8Lib;
+			productName = CRC8Lib;
+			productReference = 23890A2419DB064B00D64063 /* CRC8Lib */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23890A1C19DB064B00D64063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KickinEspresso;
+				TargetAttributes = {
+					23890A2319DB064B00D64063 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 23890A1F19DB064B00D64063 /* Build configuration list for PBXProject "CRC8Lib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23890A1B19DB064B00D64063;
+			productRefGroup = 23890A2519DB064B00D64063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23890A2319DB064B00D64063 /* CRC8Lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23890A2019DB064B00D64063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23890A3619DB080100D64063 /* Crc8.c in Sources */,
+				23890A3319DB078000D64063 /* KECRC.m in Sources */,
+				23890A2819DB064B00D64063 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23890A2919DB064B00D64063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23890A2A19DB064B00D64063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23890A2C19DB064B00D64063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23890A2D19DB064B00D64063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23890A1F19DB064B00D64063 /* Build configuration list for PBXProject "CRC8Lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23890A2919DB064B00D64063 /* Debug */,
+				23890A2A19DB064B00D64063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23890A2B19DB064B00D64063 /* Build configuration list for PBXNativeTarget "CRC8Lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23890A2C19DB064B00D64063 /* Debug */,
+				23890A2D19DB064B00D64063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23890A1C19DB064B00D64063 /* Project object */;
+}
