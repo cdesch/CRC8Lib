@@ -10,6 +10,7 @@
 		23890A2819DB064B00D64063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A2719DB064B00D64063 /* main.m */; };
 		23890A3619DB080100D64063 /* Crc8.c in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3519DB080100D64063 /* Crc8.c */; };
 		23890A3919DB094E00D64063 /* KECRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3819DB094E00D64063 /* KECRC.m */; };
+		23890A3C19DB0AA800D64063 /* encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3A19DB0AA800D64063 /* encoder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		23890A3519DB080100D64063 /* Crc8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Crc8.c; sourceTree = "<group>"; };
 		23890A3719DB094E00D64063 /* KECRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KECRC.h; sourceTree = "<group>"; };
 		23890A3819DB094E00D64063 /* KECRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KECRC.m; sourceTree = "<group>"; };
+		23890A3A19DB0AA800D64063 /* encoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = encoder.cpp; sourceTree = "<group>"; };
+		23890A3B19DB0AA800D64063 /* encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		23890A2619DB064B00D64063 /* CRC8Lib */ = {
 			isa = PBXGroup;
 			children = (
+				23890A3B19DB0AA800D64063 /* encoder.h */,
+				23890A3A19DB0AA800D64063 /* encoder.cpp */,
 				23890A3719DB094E00D64063 /* KECRC.h */,
 				23890A3819DB094E00D64063 /* KECRC.m */,
 				23890A3419DB080100D64063 /* Crc8.h */,
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23890A3C19DB0AA800D64063 /* encoder.cpp in Sources */,
 				23890A3919DB094E00D64063 /* KECRC.m in Sources */,
 				23890A3619DB080100D64063 /* Crc8.c in Sources */,
 				23890A2819DB064B00D64063 /* main.m in Sources */,
