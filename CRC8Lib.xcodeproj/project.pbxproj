@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		23890A2819DB064B00D64063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A2719DB064B00D64063 /* main.m */; };
-		23890A3319DB078000D64063 /* KECRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3219DB078000D64063 /* KECRC.m */; };
 		23890A3619DB080100D64063 /* Crc8.c in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3519DB080100D64063 /* Crc8.c */; };
+		23890A3919DB094E00D64063 /* KECRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 23890A3819DB094E00D64063 /* KECRC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +27,10 @@
 /* Begin PBXFileReference section */
 		23890A2419DB064B00D64063 /* CRC8Lib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CRC8Lib; sourceTree = BUILT_PRODUCTS_DIR; };
 		23890A2719DB064B00D64063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		23890A3119DB078000D64063 /* KECRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KECRC.h; path = ../KECRC.h; sourceTree = "<group>"; };
-		23890A3219DB078000D64063 /* KECRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KECRC.m; path = ../KECRC.m; sourceTree = "<group>"; };
 		23890A3419DB080100D64063 /* Crc8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crc8.h; sourceTree = "<group>"; };
 		23890A3519DB080100D64063 /* Crc8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Crc8.c; sourceTree = "<group>"; };
+		23890A3719DB094E00D64063 /* KECRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KECRC.h; sourceTree = "<group>"; };
+		23890A3819DB094E00D64063 /* KECRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KECRC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 		23890A2619DB064B00D64063 /* CRC8Lib */ = {
 			isa = PBXGroup;
 			children = (
-				23890A3119DB078000D64063 /* KECRC.h */,
-				23890A3219DB078000D64063 /* KECRC.m */,
+				23890A3719DB094E00D64063 /* KECRC.h */,
+				23890A3819DB094E00D64063 /* KECRC.m */,
 				23890A3419DB080100D64063 /* Crc8.h */,
 				23890A3519DB080100D64063 /* Crc8.c */,
 				23890A2719DB064B00D64063 /* main.m */,
@@ -128,8 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23890A3919DB094E00D64063 /* KECRC.m in Sources */,
 				23890A3619DB080100D64063 /* Crc8.c in Sources */,
-				23890A3319DB078000D64063 /* KECRC.m in Sources */,
 				23890A2819DB064B00D64063 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
